@@ -79,19 +79,66 @@ body{
 
 /* ======== 左側選單區 ======== */
 #slidebar1{
-	width:180px;
+	width:165px;
 	float:left;
+	padding-left:15px;
 }
 #slidebar1 h2{}
-#slidebar1 h2 a{}
-#slidebar1 p{}
-#slidebar1 ul{}
+#slidebar1 h2 a{
+	display:block;
+	background-image:url(images/sidebar1_freedownload.gif);
+	width:150px;
+	height:115px;
+	text-indent:-9999px;
+	margin-bottom:10px;
+}
+#slidebar1 p{
+	background-image:url(images/list_top.gif);
+	width:150px;
+	height:29px;
+	line-height:29px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+#slidebar1 ul{
+	width:95px;
+	list-style-image:url(images/list_arrow.gif);
+	background-color:#486108;
+	background-image:url(images/list_bottom.gif);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	margin-bottom:10px;
+	padding:10px 20px 15px 35px;
+}
 #slidebar1 li{}
-#slidebar1 li a{}
-#slidebar1 li a:hover{}
-#slidebar1 h3{}
+#slidebar1 li a{
+	display:block;
+	color:#fff;
+	padding:10px 0 5px 0;
+	font-size:12px;
+	text-decoration:none;
+	border-bottom:#91a06b 1px dashed;
+}
+#slidebar1 li a:hover{
+	color:#F90;
+}
+#slidebar1 h3{
+	background-image:url(images/sidebar1_sale.gif);
+	width:150px;
+	height:140px;
+	text-indent:-9999px;
+	margin-bottom:10px;
+}
 #slidebar1 h4{}
-#slidebar1 h4 a{}
+#slidebar1 h4 a{
+	display:block;
+	background-image:url(images/sidebar1_registration.gif);
+	width:150px;
+	height:80px;
+	text-indent:-9999px;
+	margin-bottom:10px;
+}
 
 /* ======== 內容區 ======== */
 #content{
