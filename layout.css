@@ -76,3 +76,36 @@ body{
 	left: 750px;
 	top: 75px;
 }
+
+/* ======== 左側選單區 ======== */
+#slidebar1{
+	width:180px;
+	float:left;
+}
+#slidebar1 h2{}
+#slidebar1 h2 a{}
+#slidebar1 p{}
+#slidebar1 ul{}
+#slidebar1 li{}
+#slidebar1 li a{}
+#slidebar1 li a:hover{}
+#slidebar1 h3{}
+#slidebar1 h4{}
+#slidebar1 h4 a{}
+
+/* ======== 內容區 ======== */
+#content{
+	width:620px;
+	float:left;
+}
+
+/* ======== 左側選單區 ======== */
+#sliderbar2{
+	width:180px;
+	float:right;
+}
+
+/* ======== 版權宣告區 ======== */
+#footer{
+	clear:both;
+}
