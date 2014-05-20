@@ -191,6 +191,43 @@ body{
 	width:180px;
 	float:right;
 }
+#sliderbar2 h2{
+	background-image:url(images/sidebar1_viewmore.gif);
+	width:150px;
+	height:120px;
+	text-indent:-9999px;
+}
+#sliderbar2 p{
+	background-image:url(images/list_top.gif);
+	width:150px;
+	height:29px;
+	line-height:29px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+}
+#sliderbar2 ul{
+	width:95px;
+	list-style-image:url(images/list_arrow.gif);
+	background-color:#486108;
+	background-image:url(images/list_bottom.gif);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	margin-bottom:10px;
+	padding:10px 20px 15px 35px;
+}
+#sliderbar2 li{}
+#sliderbar2 li a{
+	display:block;
+	color:#FFF;
+	padding:10px 0 5px 0;
+	font-size:12px;
+	text-decoration:none;
+	border-bottom:#91a06b 1px dashed;
+}
+#sliderbar2 li a:hover{
+	color:#F90;
+}
 
 /* ======== 版權宣告區 ======== */
 #footer{
