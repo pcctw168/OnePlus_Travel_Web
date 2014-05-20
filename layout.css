@@ -119,6 +119,8 @@ body{
 	font-size:12px;
 	text-decoration:none;
 	border-bottom:#91a06b 1px dashed;
+	/* ====== IE6 Hank ====== */
+	_display:inline-block;
 }
 #slidebar1 li a:hover{
 	color:#F90;
@@ -224,6 +226,8 @@ body{
 	font-size:12px;
 	text-decoration:none;
 	border-bottom:#91a06b 1px dashed;
+	/* ====== IE6 Hank ====== */
+	_display:inline-block;
 }
 #sliderbar2 li a:hover{
 	color:#F90;
@@ -233,6 +237,8 @@ body{
 #footer{
 	clear:both;
 	background-color:#314403;
+	/* ====== IE6 Hank ====== */
+	_height:1%;
 }
 #footer h4{
 	height:50px;
