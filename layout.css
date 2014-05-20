@@ -17,3 +17,62 @@ body{
 	width:980px;
 	margin:0 auto;
 }
+
+/* ======== 標題區 ======== */
+#header{
+	position:relative;
+	height:150px;
+}
+#header h1{
+	background-image:url(images/logo.jpg);
+	width:200px;
+	height:120px;
+	text-indent:-9999px;
+}
+#header ul{
+	position:absolute;
+	border-left:1px #663 solid;
+	left: 260px;
+	top: 20px;
+}
+#header li{
+	list-style-type:none;
+	float:left;
+}
+#header li a{
+	display:block;
+	width:100px;
+	height:36px;
+	line-height:36px;
+	text-decoration:none;
+	color:#666633;
+	background-color:#cdcc34;
+	text-align:center;
+	border-bottom:1px #663 solid;
+	border-top:1px #663 solid;
+	border-right:1px #663 solid;
+}
+#header li a:hover{
+	background-color:#eeeeaa;
+}
+#header h3{
+	position:absolute;
+	background-image:url(images/header_bar.gif);
+	width:660px;
+	height:31px;
+	line-height:31px;
+	font-size:12px;
+	font-weight:normal;
+	left: 260px;
+	top: 70px;
+}
+#header img.bookmark{
+	position:absolute;
+	left: 600px;
+	top: 75px;
+}
+#header img.search{
+	position:absolute;
+	left: 750px;
+	top: 75px;
+}
